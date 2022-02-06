@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/2a65aea4a8.js" crossorigin="anonymous"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<style>
+  
+</style>
+
+<body>
+    <div id="cont1">
+        <div class="box bt-0 bl-0"><span class="ele"></span></div>
+        <div class="box bt-0 "><span class="ele"></span></div>
+        <div class="box bt-0 br-0"><span class="ele"></span></div>
+        <div class="box bl-0"><span class="ele"></span></div>
+        <div class="box "><span class="ele"></span></div>
+        <div class="box br-0"><span class="ele"></span></div>
+        <div class="box bl-0 bb-0"><span class="ele"></span></div>
+        <div class="box bb-0"><span class="ele"></span></div>
+        <div class="box bb-0 br-0"><span class="ele"></span></div>
+    </div>
+
+    <div id="cont2">
+        <h1>Welcome To Tic-Tac-Toe</h1>
+        <h3>It's " <span id="change">X</span> " Turn</h3>
+        <table>
+            <tr>
+                <th>X Player</th>
+                <th>O Player</th>
+            </tr>
+            <tr>
+                <th id="Xscore">0</th>
+                <th id="Oscore">0</th>
+            </tr>
+        </table>
+    </div>
+    <div id="gameover">
+        <h1 id="gameovertext"></h1>
+        <button onclick="restart()" id="restartbtn">Restart</button>
+    </div>
+    <footer>
+        <h1></h1>
+        <h4>Created by <a target="_blank" href="https://vivekpatil28.github.io/WebofVivek/">&copy; Vivek Patil</a></h4>
+        <div id="icons">
+            <a id="i1" target="_blank" href="https://www.facebook.com/profile.php" class="fab fa-facebook"></a>
+            <a id="i2" href="" class="fab fa-twitter"></a>
+            <a id="i3" target="_blank" href="https://www.instagram.com/its_vivek_patil_vm/" class="fab fa-instagram-square"></a>
+            <a id="i4" href="" class="fab fa-telegram"></a>
+          </div>
+    </footer>
+</body>
+
+</html>
